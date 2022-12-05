@@ -3,7 +3,7 @@ print("Hello World")
 # Select Run from the "Run" menu.
 
 # Variables are used to temporarily store data in the memory.
-item = 1
+item = 20
 print(item)
 # note, no quotation marks since 20 is not a string.
 

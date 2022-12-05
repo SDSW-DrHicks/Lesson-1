@@ -10,9 +10,24 @@
 import matplotlib.pyplot as plt
 
 # Here is an example plot.
-x = (1, 2, 3)
-y = (1, 2, 3)
+x = [1, 2, 3]
+y = [1, 2, 3]
 plt.plot(x,y)
 # Use the command below to make plot appear
 plt.show()
 
+# numpy is useful for manipulating arrays and functions
+import numpy as np
+# linspace is used to generate an values from (lefthand side, righthand side, number of
+# Evenly distributed values within the left- and righthand bounds).
+
+# Make a set of values for input, x
+x = np.linspace(-np.pi, np.pi, 201)
+# Use plt.plot to plot the input againt the output of a function, sine.
+plt.plot(x, np.sin(x))
+# Format plots with axis titles.
+plt.xlabel('Angle [rad]')
+plt.ylabel('sin(x)')
+plt.axis('tight')
+# Show the plot.
+plt.show()
