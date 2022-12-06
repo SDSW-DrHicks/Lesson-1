@@ -10,9 +10,9 @@
 import matplotlib.pyplot as plt
 
 # Here is an example plot.
-x = [1, 2, 3]
-y = [1, 2, 3]
-plt.plot(x,y)
+x1 = [1, 2, 3]
+y1 = [1, 2, 3]
+plt.plot(x1,y1)
 # Use the command below to make plot appear
 plt.show()
 
@@ -29,5 +29,10 @@ plt.plot(x, np.sin(x))
 plt.xlabel('Angle [rad]')
 plt.ylabel('sin(x)')
 plt.axis('tight')
-# Show the plot.
+plt.show()
+# special format options in matplotlib
+plt.plot(x1,y1, 'bo') # this allows for making discrete point with blue "b" color and "o" cicular shape.
+plt.show()
+plt.plot(x1,y1,"r+") # plot with red, "r" plus signs "+."
+plt.grid(True) # adds a grid to the plot
 plt.show()
