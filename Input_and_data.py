@@ -4,6 +4,7 @@ print("Hello World")
 
 # Variables are used to temporarily store data in the memory.
 item = 20
+item2 = 10
 print(item)
 # note, no quotation marks since 20 is not a string.
 
