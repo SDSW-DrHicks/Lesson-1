@@ -8,6 +8,7 @@
 
 # Once matplotlib is installed, you must still import it into your operating file.
 import matplotlib.pyplot as plt
+# in terminal, you may need to type: pip3 install matplotlib  
 
 # Here is an example plot.
 x1 = [1, 2, 3]
